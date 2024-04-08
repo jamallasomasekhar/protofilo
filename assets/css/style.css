@@ -749,8 +749,8 @@ main {
 }
 
 .clients-item img {
-  width: 100%;
-  filter: grayscale(1);
+  width: 70%;
+  /* filter: grayscale(1); */
   transition: var(--transition-1);
 }
 
@@ -1031,7 +1031,7 @@ main {
 
 
 /*-----------------------------------*\
-  #BLOG
+  #blog
 \*-----------------------------------*/
 
 .blog-posts { margin-bottom: 10px; }
@@ -1244,7 +1244,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * #PORTFOLIO, BLOG 
+   * #PORTFOLIO, blog 
    */
 
   .project-img,
@@ -1503,7 +1503,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * #PORTFOLIO, BLOG
+   * #PORTFOLIO, blog
    */
 
   .project-img, .blog-banner-box { border-radius: 16px; }
@@ -1749,7 +1749,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * BLOG
+   * blog
    */
 
   .blog-banner-box { height: 230px; }
