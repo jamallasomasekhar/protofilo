@@ -5,12 +5,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vCard - Personal Portfolio</title>
+  <title>Somasekhar Portfolio</title>
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script type="text/javascript">
+      (function() {
+          emailjs.init('lSnUyi6iuSzxc11xU'); // Replace 'YOUR_USER_ID' with your EmailJS user ID
+      })();
+  </script>
 
   <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
 
   <!--
     - custom css link
@@ -182,7 +188,7 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
+            <button class="navbar-link" data-nav-link>Badges</button>
           </li>
 
           <li class="navbar-item">
@@ -208,16 +214,10 @@
 
         <section class="about-text">
           <p>
-            A passionate and skilled DevOps, SRE, and Cloud Engineer with a strong background in infrastructure provisioning, 
-            automation, and monitoring. I have completed and been certified by AWS Academy Graduate - AWS Academy Cloud Architecting and AWS Academy Graduate - AWS Academy Cloud Foundations
-            for AWS Certified Cloud Practitioner. 
-          </p>
-
-          <p>
-            Have experience working with tools such as Jenkins, Terraform, and Ansible to streamline development processes and ensure efficient code deployment.
-             Proficient in managing and monitoring cloud infrastructure services on AWS and GCP, as well as maintaining high availability in Kubernetes-based container clusters. 
-             Successfully implemented monitoring and logging tools like ELK, Grafana, and Datadog to ensure comprehensive visibility into system performance and implemented GitOps for managing infrastructure as code.
-             My expertise also includes integrating automation testing into the CI/CD pipeline and developing scripts to automate tasks, improving efficiency and reducing manual effort.
+            SRE/DevOps engineer currently working In Yarasi enterprise private
+            limited and living Nellore, Andhra p. I have total of 1.5+ years of IT
+            experience in the field of DevOps Automation/AWS,AzureDevOps
+            ,Cloud Migration/Linux System administrator             
           </p>
         </section>
 
@@ -447,13 +447,17 @@
 
             <li class="clients-item">
               <a href="#">
-                <img src="https://media.licdn.com/dms/image/C4D0BAQEvE5hVSK-sHQ/company-logo_200_200/0/1679923143118/ast_consulting_india_logo?e=1717632000&v=beta&t=KfOesAvRIxjWjRlKkGZ_ob7WpwC80fxjE9T13P-_Q4k" alt="client logo">
+                <img src="https://photos.wellfound.com/startups/i/9983146-97e2e8d7a3dfc44cf4b66f02dd0c4492-medium_jpg.jpg?buster=1707202685" alt="client logo">
               </a>
             </li>
-
             <li class="clients-item">
               <a href="#">
-                <img src="https://photos.wellfound.com/startups/i/9983146-97e2e8d7a3dfc44cf4b66f02dd0c4492-medium_jpg.jpg?buster=1707202685" alt="client logo">
+                <img src="./assets/images/thedebateclub_logo.jpg" alt="client logo">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/prabhat khabar.png" alt="client logo">
               </a>
             </li>
 
@@ -571,7 +575,7 @@
 
               <h4 class="h4 timeline-item-title">DevOps Engineer</h4>
 
-              <span>Jan 2024 — Present</span>
+              <span>Jan 2024 — Apr 2024</span>
 
               <p class="timeline-text">
                Company:- AST Consulting ·<br> 
@@ -583,13 +587,13 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">DevOps Lead</h4>
+              <h4 class="h4 timeline-item-title">DevOps Lead & Cloud Architect</h4>
 
               <span>Sep 2023 — Present</span>
 
               <p class="timeline-text">
                 Company:- Yarasi Enterprises Private Limited ·<br> 
-                Employment type:- Freelance.<br>
+                Employment type:- Full-time.<br>
                 Location type:- Remote.
               </p>
 
@@ -1008,39 +1012,65 @@
 
 
       <!--
-        - #blog
+        - #badges
       -->
 
-      <article class="blog" data-page="blog">
+      <article class="Badges" data-page="badges">
 
         <header>
-          <h2 class="h2 article-title">Certificate</h2>
+          <h2 class="h2 article-title">Certificate&Badges</h2>
         </header>
 
-        <section class="blog-posts">
+        <section class="badges-posts">
 
-          <ul class="blog-posts-list">
+          <ul class="badges-posts-list">
+            <li class="badges-post-item">
+              <a href="https://www.credly.com/badges/2eb9d924-8cd1-40ee-9a79-8f8999615bff/public_url">
 
-            <li class="blog-post-item">
+                <figure class="badges-banner-box" >
+                  <img src="./assets/images/aws-cloud-quest-cloud-practitioner.png" alt="AWS Cloud Quest: Cloud Practitioner" width="60px" height="60px" loading="lazy">
+                </figure>
+
+                <div class="badges-content">
+
+                  <div class="badges-meta">
+                    <p class="badges-category">Cloud Practitioner</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-06-10">June 10, 2024</time>
+                  </div>
+
+                  <h3 class="h3 badges-item-title">AWS Cloud Quest: Cloud Practitioner</h3>
+
+                  <p class="badges-text">
+                    Issued by Amazon Web Services Training and Certification
+                  </p>
+
+                </div>
+
+              </a>
+            </li> 
+            <li class="badges-post-item">
               <a href="https://www.credly.com/badges/200e3849-21d8-4f12-b68f-e678ced7d7ab/public_url">
 
-                <figure class="blog-banner-box">
+                <figure class="badges-banner-box">
                   <img src="./assets/images/aws cloud architect.png" alt="AWS Academy Graduate - AWS Academy Cloud Architecting" loading="lazy">
                 </figure>
 
-                <div class="blog-content">
+                <div class="badges-content">
 
-                  <div class="blog-meta">
-                    <p class="blog-category">Cloud</p>
+                  <div class="badges-meta">
+                    <p class="badges-category">AWS Cloud</p>
 
                     <span class="dot"></span>
 
                     <time datetime="2022-03-11">March 11, 2023</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">AWS Academy Graduate - AWS Academy Cloud Architecting</h3>
+                  <h3 class="h3 badges-item-title">AWS Academy Graduate - AWS Academy Cloud Architecting</h3>
 
-                  <p class="blog-text">
+                  <p class="badges-text">
                     Issued by Amazon Web Services Training and Certification
                     Earners of this badge have taken the AWS Academy Cloud Architecting course.
                   </p>
@@ -1050,26 +1080,110 @@
               </a>
             </li>
 
-            <li class="blog-post-item">
+            <li class="badges-post-item">
+              <a href="https://www.credly.com/badges/d9c83cfa-493d-4cf3-8cc9-b06a31ac19cb/public_url">
+
+                <figure class="badges-banner-box">
+                  <img src="./assets/images/implement-load-balancing-on-compute-engine-skill-ba.png" alt="Compute Engine Skill Badge" loading="lazy">
+                </figure>
+
+                <div class="badges-content">
+
+                  <div class="badges-meta">
+                    <p class="badges-category">GCP Cloud</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-06-11">June 11, 2024</time>
+                  </div>
+
+                  <h3 class="h3 badges-item-title">Implement Load Balancing on Compute Engine Skill Badge</h3>
+
+                  <p class="badges-text">
+                    Issued by Google Cloud
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="badges-post-item">
+              <a>
+                <figure class="badges-banner-box">
+                  <img src="./assets/images/kodekloud-devops.png" alt="The Complete of DevOps" loading="lazy">
+                </figure>
+
+                <div class="badges-content">
+
+                  <div class="badges-meta">
+                    <p class="badges-category">DevOps</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-04-22">April 22, 2024</time>
+                  </div>
+
+                  <h3 class="h3 badges-item-title">Udemy Labs: The Complete DevOps </h3>
+
+                  <p class="badges-text">
+                    Issued by KodeKloud
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="badges-post-item">
+              <a>
+                <figure class="badges-banner-box">
+                  <img src="./assets/images/kodekloud-kuber.png" alt="Kubernetes for the Absolute Beginners -
+                  Hands-on Tutorial" loading="lazy">
+                </figure>
+
+                <div class="badges-content">
+
+                  <div class="badges-meta">
+                    <p class="badges-category">Kubernetes</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-04-22">April 22, 2024</time>
+                  </div>
+
+                  <h3 class="h3 badges-item-title">Kubernetes for the Absolute Beginners -
+                    Hands-on Tutorial </h3>
+
+                  <p class="badges-text">
+                    Issued by KodeKloud
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="badges-post-item">
               <a href="https://www.credly.com/badges/0ac5db80-a11e-424a-b4e0-839343cdddb9/public_url">
 
-                <figure class="blog-banner-box">
+                <figure class="badges-banner-box">
                   <img src="./assets/images/aws cloud foundations.png" alt="AWS Academy Graduate - AWS Academy Cloud Foundations" loading="lazy">
                 </figure>
 
-                <div class="blog-content">
+                <div class="badges-content">
 
-                  <div class="blog-meta">
-                    <p class="blog-category">Cloud</p>
+                  <div class="badges-meta">
+                    <p class="badges-category">AWS Cloud</p>
 
                     <span class="dot"></span>
 
                     <time datetime="2023-02-25">January 25, 2023</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">AWS Academy Graduate - AWS Academy Cloud Foundations</h3>
+                  <h3 class="h3 badges-item-title">AWS Academy Graduate - AWS Academy Cloud Foundations</h3>
 
-                  <p class="blog-text">
+                  <p class="badges-text">
                     Issued by Amazon Web Services Training and Certification
                     Earners of this badge have taken the AWS Academy Cloud Foundations course.
                   </p>
@@ -1079,26 +1193,26 @@
               </a>
             </li>
 
-            <li class="blog-post-item">
+            <li class="badges-post-item">
               <a href="https://www.credly.com/badges/2305f1b8-a68d-4963-890d-e65a4a6024be/public_url">
 
-                <figure class="blog-banner-box">
+                <figure class="badges-banner-box">
                   <img src="./assets/images/cisco cybersecurty.png" alt="Introduction to Cybersecurity" loading="lazy">
                 </figure>
 
-                <div class="blog-content">
+                <div class="badges-content">
 
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+                  <div class="badges-meta">
+                    <p class="badges-category">Security</p>
 
                     <span class="dot"></span>
 
                     <time datetime="2022-10-30">October 30, 2022</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">Introduction to Cybersecurity</h3>
+                  <h3 class="h3 badges-item-title">Introduction to Cybersecurity</h3>
 
-                  <p class="blog-text">
+                  <p class="badges-text">
                     Issued by Cisco.
                   </p>
 
@@ -1107,26 +1221,26 @@
               </a>
             </li>
 
-            <li class="blog-post-item">
+            <li class="badges-post-item">
               <a href="https://www.shine.com/hackathon/details/64783523d45ddcc194d63355">
 
-                <figure class="blog-banner-box">
+                <figure class="badges-banner-box">
                   <img src="./assets/images/Hackton certificate.png" alt="Hackathon Certificate Heptagon Technologies" loading="lazy">
                 </figure>
 
-                <div class="blog-content">
+                <div class="badges-content">
 
-                  <div class="blog-meta">
-                    <p class="blog-category">Hackathon</p>
+                  <div class="badges-meta">
+                    <p class="badges-category">Hackathon</p>
 
                     <span class="dot"></span>
 
                     <time datetime="2023-06-18">Jun 18, 2023</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">Hackathon Certificate Heptagon Technologies</h3>
+                  <h3 class="h3 badges-item-title">Hackathon Certificate Heptagon Technologies</h3>
 
-                  <p class="blog-text">
+                  <p class="badges-text">
                     Hackathon Certificate Heptagon Technologies (A Quess Corp Company) , i got #11th rank of merit of hackathon Shine.com
                   </p>
 
@@ -1135,26 +1249,26 @@
               </a>
             </li>
 
-            <li class="blog-post-item">
+            <li class="badges-post-item">
               <a href="#">
 
-                <figure class="blog-banner-box">
+                <figure class="badges-banner-box">
                   <img src="./assets/images/eduskill.png" alt="AWS CLOUD VIRTUAL INTERSHIP" loading="lazy">
                 </figure>
 
-                <div class="blog-content">
+                <div class="badges-content">
 
-                  <div class="blog-meta">
-                    <p class="blog-category">Cloud</p>
+                  <div class="badges-meta">
+                    <p class="badges-category">AWS Cloud</p>
 
                     <span class="dot"></span>
 
                     <time datetime="2023-02-23">Fab 23, 2023</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">AWS CLOUD VIRTUAL INTERSHIP</h3>
+                  <h3 class="h3 badges-item-title">AWS CLOUD VIRTUAL INTERSHIP</h3>
 
-                  <p class="blog-text">
+                  <p class="badges-text">
                     successfully completed AWS CLOUD VIRTUAL INTERSHIP
                     EduSkills Foundation
                   </p>
@@ -1164,26 +1278,26 @@
               </a>
             </li>
 
-            <li class="blog-post-item">
+            <li class="badges-post-item">
               <a href="#">
 
-                <figure class="blog-banner-box">
+                <figure class="badges-banner-box">
                   <img src="./assets/images/microsoft azure internship.jpg" alt="microsoftazure virutal internship" loading="lazy">
                 </figure>
 
-                <div class="blog-content">
+                <div class="badges-content">
 
-                  <div class="blog-meta">
-                    <p class="blog-category">Cloud</p>
+                  <div class="badges-meta">
+                    <p class="badges-category">Azure Cloud</p>
 
                     <span class="dot"></span>
 
                     <time datetime="2022-07-17">July 17, 2022</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">microsoftazure virutal internship</h3>
+                  <h3 class="h3 badges-item-title">microsoftazure virutal internship</h3>
 
-                  <p class="blog-text">
+                  <p class="badges-text">
                     i am really glad to share my future ready talent #internship #future virtual internship certificate #connections # talent #microsoftazure
                   </p>
 
@@ -1191,26 +1305,26 @@
 
               </a>
             </li>
-            <li class="blog-post-item">
+            <li class="badges-post-item">
               <a href="#">
 
-                <figure class="blog-banner-box">
+                <figure class="badges-banner-box">
                   <img src="./assets/images/tcs.jpg" alt="TCS iON Career Edge - Young Professional" loading="lazy">
                 </figure>
 
-                <div class="blog-content">
+                <div class="badges-content">
 
-                  <div class="blog-meta">
-                    <p class="blog-category">Other</p>
+                  <div class="badges-meta">
+                    <p class="badges-category">Other</p>
 
                     <span class="dot"></span>
 
                     <time datetime="2022-04-19">Apr 18, 2022</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">TCS iON Career Edge - Young Professional</h3>
+                  <h3 class="h3 badges-item-title">TCS iON Career Edge - Young Professional</h3>
 
-                  <p class="blog-text">
+                  <p class="badges-text">
                     i succesfully completed the "TCS iON Career Edge - Young Professional" course certificate, offered by #tcs
                   </p>
 
@@ -1246,11 +1360,8 @@
         </section>
 
         <section class="contact-form">
-
           <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="https://script.google.com/macros/s/AKfycbzvuOwlgWICDV6xohYHI2aQtBfxrOqg2PJbdh993LN1kLu4TOMUQ3aacZoiNeW-rGuXJw/exec" class="form" data-form>
-
+          <form id="contactForm" class="form">
             <div class="input-wrapper">
               <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
 
@@ -1259,7 +1370,7 @@
 
             <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
+            <button class="form-btn" type="submit" >
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
             </button>
@@ -1269,6 +1380,20 @@
         </section>
 
       </article>
+      <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+          event.preventDefault();
+          emailjs.sendForm('service_myakvxe', 'template_kkj350x', this)
+            .then(function(response) {
+              console.log('Success!', response.status, response.text)
+              alert('Email successfully sent!');
+              document.getElementById('contactForm').reset();
+            }, function(error) {
+              console.error('Failed to send email:', error);
+              alert('Failed to send email.');
+            });
+        });
+      </script>
 
     </div>
 
