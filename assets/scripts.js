@@ -1,4 +1,3 @@
-// script.js
 document.addEventListener("DOMContentLoaded", function() {
     const startButton = document.getElementById('startButton');
     const terminal = document.getElementById('terminal');
@@ -33,7 +32,8 @@ document.addEventListener("DOMContentLoaded", function() {
         function displayNextStep() {
             if (stepIndex < totalSteps) {
                 const step = steps[stepIndex];
-                terminal.innerHTML += `<div>${step.text}</div>`;
+                terminal.innerHTML += `<div>ubuntu@ip-10-0-0-6:~$ ${step.text}</div>`;
+                terminal.scrollTop = terminal.scrollHeight; // Scroll to the bottom
                 progress = ((stepIndex + 1) / totalSteps) * 100;
                 progressBar.style.width = progress + '%';
                 stepIndex++;
@@ -47,6 +47,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function loadPortfolioContent() {
+        // Attempt to redirect to the portfolio content
         window.location.href = './assets/index.html';
-    }   
+    }
 });
