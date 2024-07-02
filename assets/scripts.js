@@ -12,16 +12,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function runDeployment() {
         const steps = [
-            { text: "Creating portfolio environment on AWS EC2...", duration: 2000 },
-            { text: "Provisioning infrastructure with Terraform...", duration: 2500 },
-            { text: "Installing Jenkins and configuring pipeline...", duration: 2000 },
-            { text: "Jenkins setup complete. Running initial tests...", duration: 1500 },
-            { text: "Stage 1: Checkout git repo and pull work directory...", duration: 1000 },
+            { text: "Creating portfolio environment on AWS EC2...", duration: 1000 },
+            { text: "Provisioning infrastructure with Terraform...", duration: 1500 },
+            { text: "Installing Jenkins and configuring pipeline...", duration: 1000 },
+            { text: "Jenkins setup complete. Running initial tests...", duration: 500 },
+            { text: "Stage 1: Checkout git repo and pull work directory...", duration: 500 },
             { text: "Running security scans with OWASP ZAP...", duration: 1000 },
-            { text: "Security scans passed. Running code quality checks with SonarQube...", duration: 2000 },
+            { text: "Security scans passed. Running code quality checks with SonarQube...", duration: 1000 },
             { text: "SonarQube analysis complete. Quality gates passed.", duration: 1000 },
-            { text: "Stage 2: Deploying application to Kubernetes cluster...", duration: 2000 },
-            { text: "Setting up load balancers and DNS configuration...", duration: 2000 },
+            { text: "Stage 2: Deploying application to Kubernetes cluster...", duration: 1000 },
+            { text: "Setting up load balancers and DNS configuration...", duration: 1000 },
             { text: "Deployment successful. Opening portfolio website on port 80...", duration: 1000 }
         ];
 
